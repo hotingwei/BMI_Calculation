@@ -13,7 +13,7 @@ elif BMI >= 24 and BMI < 27:
     print('您的BMI為', BMI, '屬過重')
 elif BMI >= 27 and BMI < 30:
     print('您的BMI為', BMI, '屬輕度肥胖')
-elif BMI > 30 and BWI < 35:
+elif BMI >= 30 and BWI < 35:
 	print('您的BMI為', BMI, '屬中度肥胖')
 else:
 	print('您的BMI為', BMI, '屬重度肥胖')
